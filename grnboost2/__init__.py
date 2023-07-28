@@ -70,6 +70,8 @@ def create_app(test_config=None):
                     "description": 'The current implementation of GRNBOOST2 takes an expression matrix and a list of genes as input. It produces a ranked list of edges as output, which we used directly in our analysis.',
                     "edge_weight_type": '',
                     "edge_weight_description": "",
+                    "directed": True,
+                    "hyperparameters": None,
                     }
             return info, 200
 
